@@ -44,5 +44,11 @@ class Survey
   end
 
   def finished?
+  end
 
+end
+
+class Question
+  def initialize
+  end
 end

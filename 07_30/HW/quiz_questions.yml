@@ -1,0 +1,33 @@
+---
+-
+  :question: What do you put in a toaster?
+  :choices:
+    - Toast
+    - Bread
+  :answer: 1
+-
+  :question: If a red house is made from red bricks and a blue house is made from blue bricks and a pink house is made from pink bricks and a black house is made from black bricks, what is a greenhouse made from?
+  :choices:
+    - Green Bricks
+    - Glass
+  :answer: 1
+-
+  :question: "Maria's father had five daughters: Ma, Me, Mi, Mo and...?"
+  :choices:
+    - Mu
+    - Maria
+  :answer: 1
+-
+  :question: It is 10 years ago, and a plane is flying at 20,000 feet over Germany. During the flight, the two engines fail. The pilot, realizing that the last remaining engine is also failing, decides on a crash landing procedure. Unfortunately the engine fails before he can do so and the plane fatally crashes smack in the middle of Berlin. Where would you bury the survivors?
+  :choices:
+    - West Berlin
+    - East Berlin
+    - No Man's Land
+    - You don't bury survivors
+  :answer: 3
+-
+  :question: Say 'silk' five times. Now spell 'silk.' What do cows drink?
+  :choices:
+    - Milk
+    - Water
+  :answer: 1

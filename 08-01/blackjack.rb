@@ -112,21 +112,13 @@ class Hand
 end
 
 class Person
-  attr_accessor :wallet, :hand, :bet
-  def initialize(wallet)
+  attr_accessor :hand
+  def initialize
     @hand= Hand.new
-    @wallet = wallet
-    @bet = 0.0
   end
 
   def transfer(money)
     @wallet += money
-  end
-
-  def draw_until_completion(deck)
-    while @hand.value < 15
-      @hand.add(deck.draw)
-    end
   end
 
   def clear_hand
@@ -134,11 +126,29 @@ class Person
   end
 end
 
+
+class Player < Person
+  attr_accessor :wallet, :bet
+
+  def initialize(wallet)
+    @wallet = wallet
+    @bet = 0.0
+  end
+end
+
+class Dealer <Person
+  def draw_until_completion(deck)
+    while @hand.value < 15
+      @hand.add(deck.draw)
+    end
+  end
+end
+
 class Game
   attr_reader :player, :dealer, :deck
   def initialize
-    @player = Person.new(100.00)
-    @dealer = Person.new(1)
+    @player = Player.new(100.00)
+    @dealer = Dealer.new
     @deck = Deck.new
   end
 

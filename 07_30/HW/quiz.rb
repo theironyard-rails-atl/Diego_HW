@@ -1,68 +1,22 @@
-#needs to
+require 'yaml'
+require 'pry'
 
-class Quizzer
 
-Questions = [
-  {
-     question: "What do you put in a toaster?",
-     choices: [
-       "Toast",
-       "Bread"
-     ],
-     answer: 1
-  },
-  {
-     question: "If a red house is made from red bricks and a blue house is made from blue bricks and a pink house is made from pink bricks and a black house is made from black bricks, what is a greenhouse made from? ",
-     choices: [
-       "Green Bricks",
-       "Glass"
-     ],
-     answer: 1
-  },
-  {
-     question: "Maria's father had five daughters: Ma, Me, Mi, Mo and?",
-     choices: [
-       "Mu",
-       "Maria"
-     ],
-     answer: 1
-  },
-  {
-     question: "It is 10 years ago, and a plane is flying at 20,000 feet over Germany. During the flight, the two engines fail. The pilot, realizing that the last remaining engine is also failing, decides on a crash landing procedure. Unfortunately the engine fails before he can do so and the plane fatally crashes smack in the middle of Berlin. Where would you bury the survivors? ",
-     choices: [
-       "West Berlin",
-       "East Berlin",
-       "No Man's Land",
-       "You don't bury survivors"
-     ],
-     answer: 3
-  },
-  {
-     question: "Say 'silk' five times. Now spell 'silk.' What do cows drink?",
-     choices: [
-       "Milk",
-       "Water"
-     ],
-     answer: 1
-  }
-]
+class Question
+  attr_reader :question, :choices, :answer, :answer_is_correct
 
-  def initialize
-    @counter = 4
-    @answer_is_correct = false
-    @score = 0
-    @correct_array=[]
-    @incorrect_array=[]
-    Questions.shuffle!
-  end
 
-  def decrease_counter
-    @counter -=1
+  def initialize(hash_obj)
+    @question = hash_obj[:question]
+    @choices = hash_obj[:choices]
+    @answer = hash_obj[:answer]
+    @written_answer = hash_obj[:choices][@answer]
+    @answer = hash_obj[:answer].to_s
   end
 
   def print_question
-    puts Questions[@counter][:question]
-    puts Questions[@counter][:choices]
+    puts @question
+    puts @choices
   end
 
   def check_answer
@@ -70,30 +24,48 @@ Questions = [
     @guess = gets.chomp!.capitalize
     puts ""
     puts ""
-    num_answer = Questions[@counter][:answer] #gets the numerical answer
-
-    if @guess==Questions[@counter][:choices][num_answer] then
+    # binding.pry
+    if (@guess == @answer) || (@guess == @written_answer)
       @answer_is_correct = true
     else
       @answer_is_correct = false
     end
   end
 
-  def calculate_score
-    if @answer_is_correct == true then
-      @score += 1
-      @correct_array << Questions[@counter][:question]
-    else
-      @incorrect_array << Questions[@counter][:question]
+
+end
+
+
+class Quizzer
+
+  def initialize(document)
+    @questions = []
+
+    document.each do |hash|
+      @questions << Question.new(hash)
     end
+
+    @score = 0
+    @correct_array=[]
+    @incorrect_array=[]
+    @questions.shuffle!
   end
 
   def run_quizzer
-    while @counter >= 0 do
-      print_question
-      check_answer
-      calculate_score
-      decrease_counter
+    @questions.each do |question|
+      question.print_question
+      question.check_answer
+      calculate_score(question)
+
+    end
+  end
+
+  def calculate_score(question)
+    if question.answer_is_correct == true
+      @score += 1
+      @correct_array << question.question
+    else
+      @incorrect_array << question.question
     end
   end
 
@@ -107,10 +79,9 @@ Questions = [
     @incorrect_array.each {|string| puts string}
   end
 
-
 end
 
-Student_1=Quizzer.new()
+user=Quizzer.new(YAML.load_file("quiz_questions.yml"))
 puts "Welcome to the Quiz Game! Good luck!"
-Student_1.run_quizzer
-Student_1.print_results
+user.run_quizzer
+user.print_results
