@@ -1,0 +1,4 @@
+
+def next_problem(num)
+a= IO.readlines(nim_arrays)
+a(0)

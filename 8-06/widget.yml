@@ -1,0 +1,601 @@
+---
+- :name: Gorgeous Rubber Shirt
+  :color: black
+  :department: Garden & Grocery
+  :price: 23.44
+  :cost_to_make: 6.0
+  :sold: 517
+- :name: Practical Wooden Pants
+  :color: maroon
+  :department: Industrial, Sports & Electronics
+  :price: 72.21
+  :cost_to_make: 0.32
+  :sold: 610
+- :name: Sleek Rubber Gloves
+  :color: gold
+  :department: Garden & Grocery
+  :price: 21.22
+  :cost_to_make: 3.41
+  :sold: 319
+- :name: Sleek Granite Shoes
+  :color: silver
+  :department: Baby & Health
+  :price: 93.31
+  :cost_to_make: 52.32
+  :sold: 5
+- :name: Intelligent Steel Computer
+  :color: orange
+  :department: Baby & Health
+  :price: 21.06
+  :cost_to_make: 11.35
+  :sold: 556
+- :name: Gorgeous Cotton Pants
+  :color: salmon
+  :department: Computers, Automotive & Grocery
+  :price: 80.68
+  :cost_to_make: 2.65
+  :sold: 935
+- :name: Small Cotton Car
+  :color: cyan
+  :department: Computers, Automotive & Grocery
+  :price: 63.51
+  :cost_to_make: 1.02
+  :sold: 368
+- :name: Gorgeous Steel Table
+  :color: red
+  :department: Home
+  :price: 82.13
+  :cost_to_make: 24.06
+  :sold: 599
+- :name: Gorgeous Plastic Pants
+  :color: gold
+  :department: Garden
+  :price: 68.05
+  :cost_to_make: 8.19
+  :sold: 883
+- :name: Incredible Steel Table
+  :color: black
+  :department: Garden & Grocery
+  :price: 77.64
+  :cost_to_make: 20.98
+  :sold: 24
+- :name: Incredible Wooden Hat
+  :color: maroon
+  :department: Garden & Grocery
+  :price: 69.51
+  :cost_to_make: 15.65
+  :sold: 166
+- :name: Incredible Cotton Gloves
+  :color: turquoise
+  :department: Computers, Automotive & Grocery
+  :price: 59.79
+  :cost_to_make: 50.37
+  :sold: 340
+- :name: Fantastic Steel Pants
+  :color: white
+  :department: Garden & Grocery
+  :price: 71.23
+  :cost_to_make: 43.03
+  :sold: 881
+- :name: Ergonomic Rubber Shoes
+  :color: green
+  :department: Home
+  :price: 0.78
+  :cost_to_make: 0.67
+  :sold: 807
+- :name: Fantastic Steel Hat
+  :color: plum
+  :department: Industrial, Sports & Electronics
+  :price: 31.24
+  :cost_to_make: 26.82
+  :sold: 333
+- :name: Fantastic Plastic Hat
+  :color: magenta
+  :department: Outdoors
+  :price: 75.29
+  :cost_to_make: 71.78
+  :sold: 763
+- :name: Ergonomic Rubber Shoes
+  :color: teal
+  :department: Baby & Health
+  :price: 75.83
+  :cost_to_make: 9.62
+  :sold: 793
+- :name: Small Rubber Table
+  :color: plum
+  :department: Industrial, Sports & Electronics
+  :price: 29.65
+  :cost_to_make: 12.25
+  :sold: 934
+- :name: Sleek Steel Hat
+  :color: magenta
+  :department: Baby & Health
+  :price: 40.43
+  :cost_to_make: 12.05
+  :sold: 208
+- :name: Sleek Cotton Car
+  :color: azure
+  :department: Books & Music
+  :price: 96.62
+  :cost_to_make: 29.71
+  :sold: 854
+- :name: Awesome Cotton Computer
+  :color: azure
+  :department: Books, Baby & Kids
+  :price: 63.78
+  :cost_to_make: 30.16
+  :sold: 752
+- :name: Sleek Concrete Shoes
+  :color: silver
+  :department: Books, Baby & Kids
+  :price: 99.84
+  :cost_to_make: 46.73
+  :sold: 658
+- :name: Gorgeous Rubber Hat
+  :color: green
+  :department: Garden & Grocery
+  :price: 68.35
+  :cost_to_make: 58.85
+  :sold: 578
+- :name: Practical Wooden Chair
+  :color: ivory
+  :department: Home
+  :price: 46.22
+  :cost_to_make: 36.18
+  :sold: 548
+- :name: Intelligent Cotton Gloves
+  :color: pink
+  :department: Outdoors
+  :price: 92.45
+  :cost_to_make: 60.0
+  :sold: 179
+- :name: Ergonomic Concrete Chair
+  :color: pink
+  :department: Baby & Health
+  :price: 99.67
+  :cost_to_make: 46.75
+  :sold: 688
+- :name: Awesome Cotton Hat
+  :color: silver
+  :department: Home
+  :price: 20.74
+  :cost_to_make: 12.75
+  :sold: 944
+- :name: Awesome Steel Pants
+  :color: cyan
+  :department: Garden & Grocery
+  :price: 57.82
+  :cost_to_make: 8.6
+  :sold: 797
+- :name: Small Granite Hat
+  :color: mint green
+  :department: Baby & Health
+  :price: 88.45
+  :cost_to_make: 16.69
+  :sold: 279
+- :name: Intelligent Steel Shirt
+  :color: silver
+  :department: Books, Baby & Kids
+  :price: 98.06
+  :cost_to_make: 37.58
+  :sold: 959
+- :name: Rustic Plastic Car
+  :color: indigo
+  :department: Home
+  :price: 78.41
+  :cost_to_make: 76.37
+  :sold: 371
+- :name: Practical Granite Computer
+  :color: indigo
+  :department: Home
+  :price: 44.17
+  :cost_to_make: 25.55
+  :sold: 523
+- :name: Gorgeous Wooden Pants
+  :color: red
+  :department: Home
+  :price: 45.32
+  :cost_to_make: 33.92
+  :sold: 882
+- :name: Intelligent Cotton Table
+  :color: yellow
+  :department: Books, Baby & Kids
+  :price: 58.68
+  :cost_to_make: 8.15
+  :sold: 53
+- :name: Sleek Plastic Computer
+  :color: blue
+  :department: Baby & Health
+  :price: 48.0
+  :cost_to_make: 24.32
+  :sold: 621
+- :name: Ergonomic Rubber Pants
+  :color: violet
+  :department: Books, Baby & Kids
+  :price: 68.54
+  :cost_to_make: 52.91
+  :sold: 523
+- :name: Ergonomic Wooden Hat
+  :color: magenta
+  :department: Home
+  :price: 56.04
+  :cost_to_make: 24.79
+  :sold: 138
+- :name: Rustic Cotton Shirt
+  :color: cyan
+  :department: Outdoors
+  :price: 84.12
+  :cost_to_make: 21.82
+  :sold: 671
+- :name: Gorgeous Rubber Shirt
+  :color: orchid
+  :department: Baby & Health
+  :price: 49.28
+  :cost_to_make: 28.71
+  :sold: 807
+- :name: Practical Concrete Shirt
+  :color: mint green
+  :department: Garden & Grocery
+  :price: 81.4
+  :cost_to_make: 28.27
+  :sold: 967
+- :name: Rustic Granite Hat
+  :color: purple
+  :department: Garden & Grocery
+  :price: 62.57
+  :cost_to_make: 50.62
+  :sold: 151
+- :name: Practical Plastic Chair
+  :color: olive
+  :department: Computers, Automotive & Grocery
+  :price: 9.8
+  :cost_to_make: 3.74
+  :sold: 354
+- :name: Awesome Cotton Shirt
+  :color: salmon
+  :department: Industrial, Sports & Electronics
+  :price: 47.53
+  :cost_to_make: 36.69
+  :sold: 529
+- :name: Incredible Concrete Gloves
+  :color: grey
+  :department: Industrial, Sports & Electronics
+  :price: 71.12
+  :cost_to_make: 13.28
+  :sold: 142
+- :name: Incredible Rubber Shirt
+  :color: lavender
+  :department: Garden
+  :price: 91.74
+  :cost_to_make: 91.18
+  :sold: 176
+- :name: Practical Plastic Computer
+  :color: silver
+  :department: Industrial, Sports & Electronics
+  :price: 77.58
+  :cost_to_make: 45.02
+  :sold: 687
+- :name: Sleek Rubber Hat
+  :color: azure
+  :department: Electronics
+  :price: 57.0
+  :cost_to_make: 44.8
+  :sold: 861
+- :name: Fantastic Plastic Gloves
+  :color: purple
+  :department: Books & Music
+  :price: 97.76
+  :cost_to_make: 11.07
+  :sold: 73
+- :name: Gorgeous Granite Hat
+  :color: salmon
+  :department: Books, Baby & Kids
+  :price: 91.24
+  :cost_to_make: 82.26
+  :sold: 976
+- :name: Intelligent Rubber Table
+  :color: cyan
+  :department: Books & Music
+  :price: 19.38
+  :cost_to_make: 4.95
+  :sold: 448
+- :name: Gorgeous Steel Table
+  :color: cyan
+  :department: Home
+  :price: 63.65
+  :cost_to_make: 29.98
+  :sold: 640
+- :name: Awesome Plastic Shirt
+  :color: magenta
+  :department: Books, Baby & Kids
+  :price: 91.42
+  :cost_to_make: 23.54
+  :sold: 530
+- :name: Small Steel Table
+  :color: cyan
+  :department: Baby & Health
+  :price: 59.81
+  :cost_to_make: 36.9
+  :sold: 789
+- :name: Awesome Plastic Pants
+  :color: sky blue
+  :department: Industrial, Sports & Electronics
+  :price: 91.33
+  :cost_to_make: 32.5
+  :sold: 218
+- :name: Ergonomic Rubber Shirt
+  :color: olive
+  :department: Garden & Grocery
+  :price: 41.68
+  :cost_to_make: 5.27
+  :sold: 264
+- :name: Intelligent Steel Car
+  :color: black
+  :department: Garden
+  :price: 85.07
+  :cost_to_make: 6.77
+  :sold: 391
+- :name: Incredible Cotton Chair
+  :color: salmon
+  :department: Baby & Health
+  :price: 97.47
+  :cost_to_make: 5.6
+  :sold: 593
+- :name: Intelligent Steel Shoes
+  :color: green
+  :department: Computers, Automotive & Grocery
+  :price: 47.17
+  :cost_to_make: 16.74
+  :sold: 234
+- :name: Awesome Granite Shirt
+  :color: cyan
+  :department: Garden & Grocery
+  :price: 58.56
+  :cost_to_make: 2.0
+  :sold: 107
+- :name: Sleek Cotton Gloves
+  :color: gold
+  :department: Home
+  :price: 46.52
+  :cost_to_make: 6.39
+  :sold: 232
+- :name: Sleek Concrete Pants
+  :color: tan
+  :department: Baby & Health
+  :price: 45.19
+  :cost_to_make: 29.46
+  :sold: 628
+- :name: Gorgeous Cotton Shirt
+  :color: tan
+  :department: Electronics
+  :price: 98.45
+  :cost_to_make: 38.85
+  :sold: 21
+- :name: Gorgeous Wooden Shirt
+  :color: gold
+  :department: Computers, Automotive & Grocery
+  :price: 9.42
+  :cost_to_make: 4.3
+  :sold: 647
+- :name: Sleek Wooden Chair
+  :color: ivory
+  :department: Garden & Grocery
+  :price: 81.63
+  :cost_to_make: 3.95
+  :sold: 412
+- :name: Practical Cotton Shirt
+  :color: indigo
+  :department: Baby & Health
+  :price: 94.73
+  :cost_to_make: 44.72
+  :sold: 988
+- :name: Rustic Cotton Car
+  :color: violet
+  :department: Garden
+  :price: 36.65
+  :cost_to_make: 13.08
+  :sold: 139
+- :name: Small Plastic Table
+  :color: teal
+  :department: Outdoors
+  :price: 72.67
+  :cost_to_make: 60.03
+  :sold: 224
+- :name: Gorgeous Steel Shoes
+  :color: ivory
+  :department: Electronics
+  :price: 85.31
+  :cost_to_make: 43.92
+  :sold: 381
+- :name: Ergonomic Steel Gloves
+  :color: indigo
+  :department: Home
+  :price: 80.62
+  :cost_to_make: 53.66
+  :sold: 426
+- :name: Gorgeous Cotton Computer
+  :color: magenta
+  :department: Garden
+  :price: 51.88
+  :cost_to_make: 27.53
+  :sold: 754
+- :name: Awesome Steel Car
+  :color: red
+  :department: Garden & Grocery
+  :price: 51.33
+  :cost_to_make: 16.49
+  :sold: 756
+- :name: Intelligent Granite Shirt
+  :color: azure
+  :department: Baby & Health
+  :price: 75.59
+  :cost_to_make: 3.61
+  :sold: 287
+- :name: Incredible Wooden Gloves
+  :color: gold
+  :department: Electronics
+  :price: 61.0
+  :cost_to_make: 26.13
+  :sold: 90
+- :name: Rustic Cotton Computer
+  :color: black
+  :department: Baby & Health
+  :price: 43.11
+  :cost_to_make: 4.12
+  :sold: 680
+- :name: Ergonomic Steel Gloves
+  :color: olive
+  :department: Home
+  :price: 65.97
+  :cost_to_make: 21.47
+  :sold: 612
+- :name: Fantastic Steel Shoes
+  :color: lavender
+  :department: Industrial, Sports & Electronics
+  :price: 16.11
+  :cost_to_make: 5.15
+  :sold: 404
+- :name: Awesome Steel Gloves
+  :color: silver
+  :department: Baby & Health
+  :price: 70.14
+  :cost_to_make: 6.26
+  :sold: 61
+- :name: Sleek Concrete Gloves
+  :color: fuchsia
+  :department: Baby & Health
+  :price: 79.21
+  :cost_to_make: 70.36
+  :sold: 423
+- :name: Small Plastic Shoes
+  :color: indigo
+  :department: Outdoors
+  :price: 55.2
+  :cost_to_make: 19.97
+  :sold: 161
+- :name: Small Steel Shoes
+  :color: ivory
+  :department: Industrial, Sports & Electronics
+  :price: 59.28
+  :cost_to_make: 54.15
+  :sold: 163
+- :name: Ergonomic Wooden Gloves
+  :color: red
+  :department: Computers, Automotive & Grocery
+  :price: 67.91
+  :cost_to_make: 57.68
+  :sold: 294
+- :name: Incredible Rubber Shoes
+  :color: teal
+  :department: Electronics
+  :price: 47.07
+  :cost_to_make: 6.39
+  :sold: 398
+- :name: Ergonomic Steel Shirt
+  :color: plum
+  :department: Books & Music
+  :price: 99.87
+  :cost_to_make: 48.78
+  :sold: 977
+- :name: Rustic Cotton Gloves
+  :color: blue
+  :department: Electronics
+  :price: 50.53
+  :cost_to_make: 8.67
+  :sold: 193
+- :name: Small Plastic Shoes
+  :color: tan
+  :department: Industrial, Sports & Electronics
+  :price: 88.92
+  :cost_to_make: 22.61
+  :sold: 388
+- :name: Awesome Concrete Shirt
+  :color: silver
+  :department: Books & Music
+  :price: 79.1
+  :cost_to_make: 44.49
+  :sold: 152
+- :name: Practical Wooden Car
+  :color: red
+  :department: Books, Baby & Kids
+  :price: 75.5
+  :cost_to_make: 2.01
+  :sold: 48
+- :name: Intelligent Cotton Hat
+  :color: black
+  :department: Baby & Health
+  :price: 36.74
+  :cost_to_make: 6.29
+  :sold: 711
+- :name: Gorgeous Cotton Table
+  :color: maroon
+  :department: Outdoors
+  :price: 72.24
+  :cost_to_make: 48.0
+  :sold: 47
+- :name: Rustic Cotton Pants
+  :color: pink
+  :department: Home
+  :price: 24.47
+  :cost_to_make: 24.18
+  :sold: 585
+- :name: Ergonomic Granite Computer
+  :color: mint green
+  :department: Industrial, Sports & Electronics
+  :price: 71.09
+  :cost_to_make: 31.49
+  :sold: 198
+- :name: Ergonomic Concrete Shirt
+  :color: yellow
+  :department: Baby & Health
+  :price: 76.94
+  :cost_to_make: 19.37
+  :sold: 174
+- :name: Incredible Granite Car
+  :color: gold
+  :department: Outdoors
+  :price: 5.82
+  :cost_to_make: 1.56
+  :sold: 445
+- :name: Sleek Concrete Table
+  :color: fuchsia
+  :department: Outdoors
+  :price: 94.79
+  :cost_to_make: 81.2
+  :sold: 459
+- :name: Small Concrete Computer
+  :color: purple
+  :department: Industrial, Sports & Electronics
+  :price: 83.64
+  :cost_to_make: 82.58
+  :sold: 751
+- :name: Awesome Wooden Pants
+  :color: turquoise
+  :department: Electronics
+  :price: 62.88
+  :cost_to_make: 48.79
+  :sold: 165
+- :name: Awesome Plastic Gloves
+  :color: red
+  :department: Garden & Grocery
+  :price: 15.1
+  :cost_to_make: 6.85
+  :sold: 601
+- :name: Fantastic Granite Shoes
+  :color: salmon
+  :department: Books & Music
+  :price: 96.37
+  :cost_to_make: 37.18
+  :sold: 248
+- :name: Small Granite Chair
+  :color: plum
+  :department: Outdoors
+  :price: 52.75
+  :cost_to_make: 21.82
+  :sold: 468
+- :name: Awesome Wooden Shirt
+  :color: lime
+  :department: Garden & Grocery
+  :price: 85.37
+  :cost_to_make: 75.65
+  :sold: 257
