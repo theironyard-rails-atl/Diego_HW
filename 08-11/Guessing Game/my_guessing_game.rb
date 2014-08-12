@@ -43,6 +43,8 @@ def status_check
   end
 end
 
+
+
 get "/guessing_game" do
   session["answer"]= rand(101)
   session["counter"]= 5

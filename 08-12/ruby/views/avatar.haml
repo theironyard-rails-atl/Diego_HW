@@ -1,0 +1,10 @@
+-if @user_info.name == "James Dabbs"
+  %h1 Not a Random Kickass Iron Yard ROR Student
+-else
+  %h1 Random Kickass Iron Yard ROR Student
+
+%h2= @user_info.name
+%img.img-round(src="#{@user_info.avatar_url}")
+%h1= ''
+%form{method: "POST"}
+  %button.btn.btn-default.btn-large Randomize!
