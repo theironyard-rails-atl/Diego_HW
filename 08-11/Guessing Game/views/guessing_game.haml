@@ -1,0 +1,23 @@
+%html
+  %head
+    %link{:href=>"//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css", :rel=>"stylesheet"}
+
+  %body
+    .container
+      -if !@guess
+        %h1= @opening
+
+
+      %h1= "#{@guess}"
+      %h1= @status
+      %h3= "Current Counter: #{session["counter"]}"
+      %h3= "Current Answer: #{session["answer"]}"
+
+
+
+
+      -if session["counter"] != 0 || @status!="What are you psychic?! You win!"
+        %form{:method => "POST"}
+          %input{:name => "guess", :placeholder => "Guess a number"}
+      -else
+        -session["answer"]= nil
